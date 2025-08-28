@@ -15,4 +15,28 @@ public class ClasseAutomotores {
 		  this.modeloAt = modeloPar;
 		  this.tipoAt = tipoPar;
 	    }
+
+public String getCorAt() {
+    return corAt;
+}
+
+public void setCorAt(String corPar) {
+    this.corAt = corPar;
+}
+
+public String getMarcaAt() {
+    return marcaAt;
+}
+
+public void setMarcaAt(String marcaPar) {
+    this.marcaAt = marcaPar;
+}
+
+public String getTipoAt() {
+    return tipoAt;
+}
+
+public void setTipoAt(String tipoPar) {
+    this.tipoAt = tipoPar;
+}
 }
