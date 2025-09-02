@@ -7,6 +7,7 @@ public class ClasseAutomotores {
 	  String tipoAt;
 	
 	  public ClasseAutomotores() {
+		  
 	    }
 	  
 	  public ClasseAutomotores( String corPar, String marcaPar, String modeloPar,String tipoPar) {
@@ -14,7 +15,8 @@ public class ClasseAutomotores {
 		  this.marcaAt = marcaPar;
 		  this.modeloAt = modeloPar;
 		  this.tipoAt = tipoPar;
-	    }
+		  
+	 }
 
 public String getCorAt() {
     return corAt;
